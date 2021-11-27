@@ -1,23 +1,31 @@
 * {
-    font-family: 'Lobster', cursive;
+    box-sizing: border-box;
+    margin: 0;
 }
 
-section {
+/* use body instead of * */
+body {
     background-color: lawngreen;
 }
 
-h1 {
-    color: mediumvioletred;
+.main-nav_items {
+    justify-content: space-evenly;
+    display: flex;
 }
 
-#plans {
-    background-color: darkgrey;
+.main-page>a {
+    text-decoration: none;
+    cursor: pointer;
 }
 
-.section-title {
+li>a {
     color: black;
+    font-weight: bolder;
+    font-size: 30px;
+    text-decoration: none;
 }
 
-#product-overview {
-    color: tomato;
+.main-nav_item {
+    display: inline-block;
+
 }

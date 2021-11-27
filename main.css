@@ -1,3 +1,23 @@
-section{
+* {
+    font-family: 'Lobster', cursive;
+}
+
+section {
     background-color: lawngreen;
+}
+
+h1 {
+    color: mediumvioletred;
+}
+
+#plans {
+    background-color: darkgrey;
+}
+
+.section-title {
+    color: black;
+}
+
+#product-overview {
+    color: tomato;
 }
